@@ -5,17 +5,17 @@ const e = React.createElement;
 class MiscItemButton extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { liked: false };
+    this.state = { load: false };
   }
 
   render() {
-    if (this.state.liked) {
-      return 'You liked this.';
+    if (this.state.load) {
+      return 'You clicked this.';
     }
 
     return e(
       'button',
-      { onClick: () => this.setState({ liked: true }) },
+      { onClick: () => this.setState({ load: true }) },
       'Like'
     );
   }
