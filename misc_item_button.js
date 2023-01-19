@@ -16,7 +16,7 @@ class MiscItemButton extends React.Component {
     return e(
       'button',
       { onClick: () => this.setState({ load: true }) },
-      'Like'
+      'Click here'
     );
   }
 }
