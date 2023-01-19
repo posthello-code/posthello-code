@@ -10,17 +10,26 @@ class MiscItemButton extends React.Component {
 
   render() {
     if (this.state.load) {
-      return 'You clicked this.';
+      return 'You liked comment number ' + this.props.commentID;
     }
 
     return e(
       'button',
-      { onClick: () => this.setState({ load: true }) },
+      { onClick: () => { 
+        this.setState({ load: true })
+      } },
       'Click'
     );
   }
 }
 
-const domContainer = document.querySelector('#misc_item_container');
-const root = ReactDOM.createRoot(domContainer);
-root.render(e(MiscItemButton));
+// Find all DOM containers, and render Like buttons into them.
+document.querySelectorAll('.misc_item_container')
+  .forEach(domContainer => {
+    // Read the comment ID from a data-* attribute.
+    const commentID = parseInt(domContainer.dataset.commentid, 10);
+    const root = ReactDOM.createRoot(domContainer);
+    root.render(
+      e(MiscItemButton, { commentID: commentID })
+    );
+  });
