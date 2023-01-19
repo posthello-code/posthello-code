@@ -10,7 +10,7 @@ class MiscItemButton extends React.Component {
 
   render() {
     if (this.state.load) {
-      return 'You liked comment number ' + this.props.commentID;
+      return 'You clicked number ' + this.props.commentID;
     }
 
     return e(
