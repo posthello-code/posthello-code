@@ -26,7 +26,7 @@ function Home() {
             <th><h2>Product Owner</h2></th>
           </tr>
           <tr>
-            <td>As a Product Validation specialist for over 5 years, I have learned a lot about what it takes to develop high-quality software accross the entire stack 
+            <td>As a Product validation specialist for over 5 years, I have learned a lot about what it takes to develop high-quality software accross the entire stack 
               while maintaining consistency and avoiding scope-creep. I can be relied upon to make informed decisions regarding 
               product backlogs, feature suggestions, and release management. I find continuous feedback is a useful tool for understanding how to build better products.</td>
           </tr>
