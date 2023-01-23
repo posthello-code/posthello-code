@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Alex
 
-- 🌱 Mostly I do node.js, but sometimes other stuff too
+- 🌱 I do mostly node.js, if you want to know more about me check out alexjensen.net
 
-This repo will host a website about me one day, it's currenly a work in progress.
+- I hope to have some projects up there soon!
