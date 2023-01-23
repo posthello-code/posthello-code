@@ -10,7 +10,7 @@ function Contact() {
         </div>
         <br></br>
         <div>
-          <a href='www.linkedin.com/in/alex-j-1b024395'>LinkedIn</a>
+          <a href='https://linkedin.com/in/helloalexjensen'>LinkedIn</a>
         </div>
         <br></br>
         <div>

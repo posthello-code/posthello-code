@@ -1,11 +1,10 @@
 import '../App.css';
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div>
       <h1>
-        Here's some details about me:
+        About me  
       <hr></hr>
       </h1>
       <table>
@@ -55,11 +54,6 @@ function Home() {
           <tr>
             <td>
               Java -- Springboot
-            </td>
-          </tr>
-          <tr>
-            <td>
-              See <div className='resumeLink'><Link to="/resume">resume</Link></div> for more
             </td>
           </tr>
         </tbody>
