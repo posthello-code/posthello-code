@@ -26,6 +26,12 @@
   }
 }
 
+b {
+  font-size: larger;
+  font-weight:lighter;
+  font-variant: small-caps;
+}
+
 h1 {
   font-size: medium;
 }
@@ -70,7 +76,7 @@ table {
   font-size: medium;
   margin-left: auto;
   margin-right: auto;
-  display: inline;
+  line-height: 150%;
 }
 
 tr {
@@ -78,13 +84,13 @@ tr {
 }
 
 th {
-  text-align: center;
+  text-align: justify;
   padding: 10px;
 }
 
 td {
   max-width: 500px;
-  text-align:center;
+  text-align:justify;
   padding: 10px;
 }
 
