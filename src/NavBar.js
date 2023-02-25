@@ -7,6 +7,7 @@ export class NavBar extends Component {
     return (
       <div className="Nav">
          <div className='navLink'><Link to="/">Home</Link></div>
+         <div className='navLink'><Link to="/blog">Blog</Link></div>
          <div className='navLink'><Link to="/contact">Contact</Link></div>
          <hr></hr>
       </div>
