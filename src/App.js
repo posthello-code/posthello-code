@@ -5,7 +5,8 @@ import Home from './content/Home'
 import Contact from './content/Contact'
 import Resume from './content/Resume'
 import Projects from './content/Projects'
-
+import Blog from './content/Blog'
+import Error from './content/Error'
 
 function Layout() {
   return <div>
@@ -29,7 +30,8 @@ function App() {
           <Route path="resume" element={<Resume />} />
           <Route path="contact" element={<Contact />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="*" element={<App />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </BrowserRouter>
