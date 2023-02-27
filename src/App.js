@@ -18,7 +18,7 @@ function Layout() {
       <img id="avatar-image" alt="A 'metaverse' style avatar of my face" src="5fe5e0c4-8fc9-4b60-8afb-c94bab25226a.jpg"></img>
       Hello, I'm Alex! 👋</div>
     <div>
-      {/* Page router renders here */}
+      {/* Render the content for current page based on Browser router state below*/}
       <Outlet ></Outlet>
     </div>
   </div>
