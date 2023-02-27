@@ -1,6 +1,6 @@
 /* FOR USE ON BLOGS WITH DARK BAKGROUNDS */
 body {
-  background-color: darkslategrey;
+  background-color: 282c34;
 }
 
 .ample-editor.readonly {
@@ -117,13 +117,13 @@ body {
   /* Light text */
   .ample-editor.readonly .ProseMirror {
     color: white;  
-    background-color: darkslategrey;
+    background-color: #282c34;
   }
 
   /* Light text for headings */
   .ample-editor .heading > a:not(.link) {
     color: white;  
-    background-color: darkslategrey;
+    background-color: #282c34;
   }
 
   /* Dark background for RFs */
