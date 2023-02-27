@@ -69,11 +69,13 @@
 a:link {
   color: rgb(112, 150, 184);
   text-align: center;
+  text-decoration: none;
 }
 
 a:visited {
   color: rgb(146, 122, 173);
   text-align: center;
+  text-decoration: none;
 }
 
 body {
