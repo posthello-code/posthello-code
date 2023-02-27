@@ -34,6 +34,8 @@ b {
 
 h1 {
   font-size: medium;
+  text-align: center;
+  padding: 5px;
 }
 
 h2 {
@@ -49,6 +51,11 @@ html {
   color: white;
 }
 
+#greeting {
+  text-align: center;
+  vertical-align: center;
+}
+
 div.navLink {
   font-size: small;
  display: inline;
@@ -62,13 +69,13 @@ div.resumeLink {
  color: rgb(112, 150, 184);
 }
 
-div.contactInfo {
+#contact-info {
   font-size: medium;
+  text-align: center;
 }
 
 body {
   color: aliceblue;
-  text-align: center;
 }
 
 table {
@@ -102,4 +109,12 @@ a:link {
 a:visited {
   color: rgb(146, 122, 173);
   text-align: center;
+
+}
+
+#avatar-image {
+  border-radius: 75%;
+  padding-right: 20px;
+  width: 100px;
+  vertical-align: top;
 }

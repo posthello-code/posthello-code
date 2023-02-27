@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div>
       <h1>Contact Me</h1>
-      <div className='contactInfo'>
+      <div id='contact-info'>
         <div>
           <a href="mailto:mail@alexjensen.net">Email</a>
         </div>

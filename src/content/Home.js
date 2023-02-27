@@ -12,7 +12,9 @@ export const IntroText = function () {
 function Home() {
   return (
     <div>
-      <div>Hello, I'm Alex! 👋</div>
+      <div id="greeting">
+      <img id="avatar-image" alt="A 'metaverse' style avatar of my face" src="5fe5e0c4-8fc9-4b60-8afb-c94bab25226a.jpg"></img>
+        Hello, I'm Alex! 👋</div>
       <table>
         <tbody>
           <tr>
