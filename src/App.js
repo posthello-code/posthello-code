@@ -1,7 +1,7 @@
 import './App.css';
 import { NavBar } from './NavBar'
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
-import { Grommet, Header } from 'grommet';
+import { Grommet } from 'grommet';
 import Home from './content/Home'
 import Contact from './content/Contact'
 import Resume from './content/Resume'
