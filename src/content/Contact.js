@@ -1,5 +1,6 @@
 import '../App.css';
-import { Box } from "grommet"
+import { Box, Button, Text } from "grommet"
+import { Send, Linkedin, Github } from 'grommet-icons'
 
 function Contact() {
   return (
@@ -8,7 +9,7 @@ function Contact() {
 
       <div className='Box'><Box
         round="medium"
-        direction="row-responsive"
+        direction="column"
         alignSelf='center'
         justify="center"
         width="90%"
@@ -16,14 +17,10 @@ function Contact() {
         pad="medium"
         background="dark-2"
         gap="medium"
-      >
-        <a href="mailto:mail@alexjensen.net">Email</a>
-        <Box>
-          <a href='https://linkedin.com/in/helloalexjensen'>LinkedIn</a>
-        </Box>
-        <Box>
-          <a href='https://github.com/posthello-code'>Github</a>
-        </Box>
+      > 
+        <Button icon={<Send />} color="white" label={<Text color='white'>Email</Text>} href="mailto:mail@alexjensen.net"></Button>
+        <Button icon={<Linkedin />} color="white" label={<Text color='white'>LinkedIn</Text>} href='https://linkedin.com/in/helloalexjensen'></Button>
+        <Button icon={<Github />} color="white" label={<Text color='white'>Github</Text>} href='https://github.com/posthello-code'></Button>
       </Box></div>
 
     </div>

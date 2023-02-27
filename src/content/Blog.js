@@ -11,7 +11,7 @@ function Amplenote() {
           direction="row-responsive"
           alignSelf='center'
           justify="center"
-          width="100%"
+          width="90%"
           align="center"
           pad="medium"
           background="dark-2"
