@@ -2,104 +2,147 @@
   text-align: center;
 }
 
+.App-link {
+  color: #61dafb;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-b {
-  font-size: larger;
-  font-weight:lighter;
-  font-variant: small-caps;
+.amplenote-embed {
+  height: 400px;
+  width: 100%;
 }
 
-h1 {
-  font-size: medium;
-}
-
-h2 {
-  font-size:large;
-}
-
-html {
-  background-color: #282c34;
-  min-height: 100vh;
+.Box {
   align-items: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
 }
 
-div.navLink {
-  font-size: small;
- display: inline;
- padding: 5px;
- color: rgb(112, 150, 184);
-}
-
-div.resumeLink {
- display: inline;
- padding: 5px;
- color: rgb(112, 150, 184);
-}
-
-div.contactInfo {
-  font-size: medium;
-}
-
-body {
-  color: aliceblue;
+#ample-desc {
   text-align: center;
 }
 
-table {
-  table-layout: auto;
+#avatar-image {
+  border-radius: 75%;
+  padding-right: 20px;
+  vertical-align: top;
+  width: 100px;
+}
+
+#greeting {
+  padding-top: 20px;
+  text-align: center;
+  vertical-align: center;
+}
+
+#contact-info {
   font-size: medium;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 150%;
+  text-align: center;
 }
 
-tr {
-  padding: 10px;
+#contact-page-heading {
+  padding-bottom: 5px;
+  padding-top: 30px;
+  text-align: center;
 }
 
-th {
-  text-align: justify;
-  padding: 10px;
-}
-
-td {
-  max-width: 500px;
-  text-align:justify;
-  padding: 10px;
+#nav-bar {
+  padding-top: 10px;
 }
 
 a:link {
   color: rgb(112, 150, 184);
   text-align: center;
+  text-decoration: none;
 }
 
 a:visited {
   color: rgb(146, 122, 173);
   text-align: center;
+  text-decoration: none;
+}
+
+body {
+  color: aliceblue;
+}
+
+b {
+  font-size: larger;
+  font-variant: small-caps;
+  font-weight: lighter;
+}
+
+div.navLink {
+  color: rgb(112, 150, 184);
+  display: inline;
+  font-size: small;
+  padding: 5px;
+}
+
+div.resumeLink {
+  color: rgb(112, 150, 184);
+  display: inline;
+  padding: 5px;
+}
+
+h1 {
+  font-size: medium;
+  text-align: center;
+}
+
+h2 {
+  font-size: large;
+  padding-top: 18px;
+  text-align: center;
+}
+
+html {
+  align-items: center;
+  background-color: #282c34;
+  color: grey;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+table {
+  font-size: medium;
+  line-height: 150%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tbody {
+  text-align: center;
+}
+
+td {
+  align-self: auto;
+  padding: 10px;
+  text-align: justify;
+}
+
+th {
+  padding: 10px;
+  text-align: justify;
+}
+
+tr {
+  padding: 10px;
 }
