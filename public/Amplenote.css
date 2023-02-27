@@ -1,4 +1,7 @@
 /* FOR USE ON BLOGS WITH DARK BAKGROUNDS */
+body {
+  background-color: darkslategrey;
+}
 
 .ample-editor.readonly {
   width: 100%;
@@ -97,3 +100,56 @@
   padding: 35px 20px 25px;
   line-height: 1.5;
 }
+
+@media only screen and (min-width: 600px) {
+  .promo-banner {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 750px;
+  }
+}
+
+  /**********
+      Dark theme modifications; remove if using light background.
+  ***********/
+
+
+  /* Light text */
+  .ample-editor.readonly .ProseMirror {
+    color: white;  
+    background-color: darkslategrey;
+  }
+
+  /* Light text for headings */
+  .ample-editor .heading > a:not(.link) {
+    color: white;  
+    background-color: darkslategrey;
+  }
+
+  /* Dark background for RFs */
+  .ample-editor .rich-footnote {
+      background-color: #272f35 
+  }
+
+  /* Dark-themed highlighted text */
+  .ample-editor .ProseMirror mark {
+    color: white;  
+    background-color: rgba(255, 178, 56, 0.32);
+  }
+
+  /* Dark background for task items */
+  .ample-editor .ProseMirror .check-list-item .row-wrapper {
+      background-color: #21282e;
+      border-left: 4px solid #626d7a;
+  }
+
+  /* Dark background for code blocks */
+  .ample-editor .ProseMirror .code-block {
+      border: 1px solid #2f3740;
+      background-color: #272f35;
+  }
+
+  /* Dark background for task items on hover */
+  .ample-editor .ProseMirror .check-list-item:hover:not(.expanded) .row-wrapper {
+      background-color: #272f35;
+  }
