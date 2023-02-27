@@ -117,13 +117,13 @@ body {
   /* Light text */
   .ample-editor.readonly .ProseMirror {
     color: white;  
-    background-color: #282c34;
+    background-color: rgb(85, 85, 85);
   }
 
   /* Light text for headings */
   .ample-editor .heading > a:not(.link) {
     color: white;  
-    background-color: #282c34;
+    background-color: rgb(85, 85, 85);
   }
 
   /* Dark background for RFs */
