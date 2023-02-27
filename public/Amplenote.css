@@ -1,6 +1,6 @@
 /* FOR USE ON BLOGS WITH DARK BAKGROUNDS */
 body {
-  background-color: #282c34;
+  background-color: rgb(85, 85, 85);
 }
 
 .ample-editor.readonly {
