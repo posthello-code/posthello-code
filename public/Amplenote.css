@@ -98,6 +98,49 @@
   line-height: 1.5;
 }
 
+/**********
+    Dark theme modifications; remove if using light background.
+***********/
+
+/* Light text */
+.ample-editor.readonly .ProseMirror {
+  color: #838383;  
+}
+
+/* Light text for headings */
+.ample-editor .heading > a:not(.link) {
+  color: #838383;   
+}
+
+/* Dark background for RFs */
+.ample-editor .rich-footnote {
+    background-color: #272f35 
+}
+
+/* Dark-themed highlighted text */
+.ample-editor .ProseMirror mark {
+  color: #838383; 
+  background-color: rgba(255, 178, 56, 0.32);
+}
+
+/* Dark background for task items */
+.ample-editor .ProseMirror .check-list-item .row-wrapper {
+    background-color: #21282e;
+    border-left: 4px solid #626d7a;
+}
+
+/* Dark background for code blocks */
+.ample-editor .ProseMirror .code-block {
+    border: 1px solid #2f3740;
+    background-color: #272f35;
+}
+
+/* Dark background for task items on hover */
+.ample-editor .ProseMirror .check-list-item:hover:not(.expanded) .row-wrapper {
+    background-color: #272f35;
+}
+
+
 @media only screen and (min-width: 600px) {
   .promo-banner {
     width: 95%;
