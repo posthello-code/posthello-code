@@ -17,7 +17,7 @@ export class GrommetButtonNav extends Component {
 export class NavBar extends Component {
   render() {
     return (
-      <div className="Nav">
+      <div id="nav-bar" className="Nav">
         <div className='navLink'>
           <GrommetButtonNav text="Home" path="/"></GrommetButtonNav>
         </div>
@@ -27,7 +27,6 @@ export class NavBar extends Component {
         <div className='navLink'>
           <GrommetButtonNav text="Contact" path="/contact"></GrommetButtonNav>
         </div>
-        <hr></hr>
       </div>
     )
   }

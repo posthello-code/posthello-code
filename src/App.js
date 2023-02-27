@@ -11,11 +11,12 @@ import Error from './content/Error'
 function Layout() {
   return <div>
     <title>{document.title = "Alex Jensen"}</title>
-    <h1>
-      <div className="App">
-        <NavBar />
-      </div>
-    </h1>
+    <div className="App">
+      <NavBar />
+    </div>
+    <div id="greeting">
+      <img id="avatar-image" alt="A 'metaverse' style avatar of my face" src="5fe5e0c4-8fc9-4b60-8afb-c94bab25226a.jpg"></img>
+      Hello, I'm Alex! 👋</div>
     <div>
       {/* Page router renders here */}
       <Outlet ></Outlet>
@@ -28,12 +29,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="resume" element={<Resume />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="*" element={<Error />} />
+          <Route index element={<Home />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </BrowserRouter>
