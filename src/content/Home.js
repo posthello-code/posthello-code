@@ -2,35 +2,32 @@ import '../App.css';
 import { Text, Box } from "grommet"
 
 export const IntroText = function () {
-  return <div className="Box">
-    <Box
-      round="medium"
-      direction="row-responsive"
-      alignSelf='center'
-      justify="center"
-      width="90%"
-      align="center"
-      pad="medium"
-      background="dark-2"
-      gap="medium"
-    >
-      <Text>
-        I started my journey as a technologist about ten years ago in college where I primarily wrote applications and interfaces
-        for <b>electronic devices</b> such as <b>Raspberry Pi</b>, and <b>NetDuino</b> and various other <b>microcontrollers</b>. My capstone project included building a user interface in <b>C#</b> to retrieve telemetry and photographic data from a homemade quad-rotor drone. 
-        <br></br><br></br>
-        In my professional career, I moved quickly from a production worker soldering and assembling to product validation, where I became proficient in <b>NodeJS</b> by writing test automation with tools like <b>SerenityBDD, CucumberJS, WebdriverIO and Selenium.</b> I learned how to work
-        with <b>Angular</b> by contributing front-end features. I learned what makes a quality <b>RESTful API</b>, by defining implementation guidelines and encouraging the use of OpenAPI standards. I generated SDKs with openAPI generator and helped automatically generate client libraries as part of application deployments. I tested event driven technologies using <b>KafkaJS</b>. I learned how to work with <b>Java springboot</b> and added features to backend services. I learned how to monitor and troubleshoot scalable applications
-        running on <b>Kubernetes and elastic beanstalk</b>. I learned about devops with <b>bitbucket, and drone.io</b> by creating pipelines for automated tests, and deploying front-end applications. In the future I want to learn more about data science and create more side projects outside of work! I'll put them here when I have some to share.
-        <br></br><br></br>
-        Don't hesitate to get in touch with me, and ask about anything above. I'm also a musician, and I enjoy synthesizers and guitar feel free to ask me where to find my music or anything else for that matter 😼
-      </Text>
-      </Box></div>
+  return <div className='Box'>
+  <Box
+    round="medium"
+    direction="row-responsive"
+    alignSelf='center'
+    justify="center"
+    width="90%"
+    align="center"
+    pad="medium"
+    background="dark-2"
+    gap="medium"> 
+    <div className  ="amplenote-embed" data-note-token="Kx4RgKSELN7AGrwrexFc135x" data-styles="../../Amplenote.css">
+      <iframe title="amplenote" width="100%" height="100%" 
+        className="amplenote-iFrame" frameBorder="0" 
+        src="https://public.amplenote.com/embed/Kx4RgKSELN7AGrwrexFc135x?hostname=alexjensen.net&styles=%2FAmplenote.css">  
+      </iframe>
+    </div>
+    <script defer src="https://public.amplenote.com/embed.js">
+    </script></Box>
+</div>
 }
 
 function Home() {
   return (
     <div>
-        <h2>Technologist | Breaker of Things | Software Dev and Tester | Creative</h2>
+        <h2>Technologist | Software Person | Creative </h2>
         <IntroText></IntroText>
     </div>
   );

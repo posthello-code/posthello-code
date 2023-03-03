@@ -26,7 +26,9 @@ function Amplenote() {
       </div>
       <div id="ample-desc">
       <Text size="small" textAlign="center">
-        This blog is updated in near real-time using an <a href="https://www.amplenote.com/help/custom_css_blogging_platform_use_case">embedded Amplenote</a> markdown <a href="https://public.amplenote.com/embed/Tt9PcjS7G1e8ZNXWe9MB2E1X?hostname=alexjensen.net&styles=%2FAmplenote.css">file</a>
+        This blog is updated in near real-time using an 
+        <a href="https://www.amplenote.com/help/custom_css_blogging_platform_use_case"> embedded Amplenote </a>  
+        markdown<a href="https://public.amplenote.com/embed/Tt9PcjS7G1e8ZNXWe9MB2E1X?hostname=alexjensen.net&styles=%2FAmplenote.css"> file </a>
       </Text>
       </div></div>)
 }
