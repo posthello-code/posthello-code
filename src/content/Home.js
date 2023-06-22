@@ -1,34 +1,24 @@
 import '../App.css';
-import { Text, Box } from "grommet"
+import { Box } from "grommet"
+import React from 'react';
 
-export const IntroText = function () {
-  return <div className='Box'>
-  <Box
-    round="medium"
-    direction="row-responsive"
-    alignSelf='center'
-    justify="center"
-    width="90%"
-    align="center"
-    pad="medium"
-    background="dark-2"
-    gap="medium"> 
-    <div className  ="amplenote-embed" data-note-token="Kx4RgKSELN7AGrwrexFc135x" data-styles="../../Amplenote.css">
-      <iframe title="amplenote" width="100%" height="100%" 
-        className="amplenote-iFrame" frameBorder="0" 
-        src="https://public.amplenote.com/embed/Kx4RgKSELN7AGrwrexFc135x?hostname=alexjensen.net&styles=%2FAmplenote.css">  
-      </iframe>
-    </div>
-    <script defer src="https://public.amplenote.com/embed.js">
-    </script></Box>
-</div>
+function IframeContainer(props) {
+  return (
+    <Box justify="center" direction='row-responsive' pad="medium" background="dark-2" round="medium" width="90%" height={{ min: '200px', max: "800px" }}>
+      <iframe title="amplenote" width="100%" height="700px"
+       frameBorder="0" 
+        src={props.src}>  
+      </iframe><script defer src="https://public.amplenote.com/embed.js">
+    </script>
+    </Box>
+  );
 }
 
 function Home() {
   return (
-    <div>
-        <h2>Technologist | Software Person | Creative </h2>
-        <IntroText></IntroText>
+    <div className='PageContent'>
+     <h2>Developer, Technologist, Cat Person</h2>
+      <IframeContainer src="https://public.amplenote.com/embed/Kx4RgKSELN7AGrwrexFc135x?hostname=alexjensen.net&styles=%2FAmplenote.css"/>
     </div>
   );
 }

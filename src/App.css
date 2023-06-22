@@ -1,37 +1,18 @@
-.App {
-  text-align: center;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .amplenote-embed {
   height: 400px;
   width: 100%;
 }
 
-.Box {
+.PageContent {
   align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  padding: 10px;
+  padding: 40px;
+}
+
+#amplenote-container {
+  height: 400px;
 }
 
 #ample-desc {
