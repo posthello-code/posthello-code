@@ -7,5 +7,5 @@
 </a>
 ....oooOO
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=posthello-code&show_icons=true&theme=transparent&langs_count=6&hide=cmake,C%2B%2B&layout=compact&card_width=420" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=posthello-code&show_icons=true&theme=transparent&langs_count=8&hide=mako,c,swift,ruby,cmake,C%2B%2B&layout=compact&card_width=420" />
 </a>
