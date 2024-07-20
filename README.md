@@ -1,6 +1,11 @@
 👋 Hi, I’m Alex
 
-🌱 If you want to know more about me check out [alexjensen.net](https://alexjensen.net) 🌱
+ If you want to know more about me:
+ 
+🌱 [AlexJensen.net](https://alexjensen.net) 🌱
+
+🖇️ [LinkedIn](https://www.linkedin.com/in/helloalexjensen) 🖇️
+
 ---
 <a href="https://github.com/posthello-code">
   <img align="center" src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif"/>
